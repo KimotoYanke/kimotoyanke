@@ -1,6 +1,6 @@
 {
   "name": "kimotoyanke",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "KimotoYanke's npx business card",
   "main": "dist/cli.js",
   "bin": "dist/cli.js",
