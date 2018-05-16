@@ -1,0 +1,23 @@
+{
+  "name": "kimotoyanke",
+  "version": "1.0.0",
+  "description": "KimotoYanke's npx business card",
+  "main": "src/cli.js",
+  "scripts": {
+    "build": "babel src/cli.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimotoYanke/kimotoyanke.git"
+  },
+  "author": "KimotoYanke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimotoYanke/kimotoyanke/issues"
+  },
+  "homepage": "https://github.com/KimotoYanke/kimotoyanke#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.47",
+    "@babel/core": "^7.0.0-beta.47"
+  }
+}
