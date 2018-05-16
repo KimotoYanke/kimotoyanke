@@ -4,6 +4,7 @@
   "description": "KimotoYanke's npx business card",
   "main": "src/cli.js",
   "scripts": {
+    "test": "echo 'no tests'", 
     "build": "babel src/cli.js -d dist"
   },
   "repository": {
