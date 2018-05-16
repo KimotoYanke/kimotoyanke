@@ -1,2 +1,12 @@
 #!/usr/bin/env node
-console.log('Hello!')
+import meow from 'meow'
+import {h, render } from 'ink'
+
+import ui from './ui'
+
+meow(`
+\tUsage:
+\t  $ kimotoyanke
+`)
+
+render(h(ui))
