@@ -1,10 +1,10 @@
 {
   "name": "kimotoyanke",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "KimotoYanke's npx business card",
   "main": "src/cli.js",
   "scripts": {
-    "test": "echo 'no tests'", 
+    "test": "echo 'no tests'",
     "build": "babel src/cli.js -d dist"
   },
   "repository": {
