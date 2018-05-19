@@ -123,7 +123,7 @@ class UI extends Component {
                 <Text gray>好きな曲:{'\t\t'}</Text><Link url="https://www.youtube.com/watch?v=LIlZCmETvsY">新宝島 (サカナクション)</Link><br />
                 <br/ >
 
-                <Text gray>Name:{'\t\t\t'}</Text><Text>Kimoto Yuto(木本悠斗)</Text><br />
+                <Text gray>Name:{'\t\t\t'}</Text><Text>Kimoto Yuto(木本悠斗; the family name is Kimoto)</Text><br />
                 <Text gray>A Student of{'\t\t'}</Text><Link url="https://www.tokyo-ct.ac.jp/">National Institute of Technology, Tokyo College(NITTC)</Link><br />
                 <Text gray>Hometown:{'\t\t'}</Text><Link url="http://www.city.zama.kanagawa.jp">Zama, Kanagawa, Japan</Link><br />
                 <Text gray>Date of Birth:{'\t\t'}</Text><Link url="https://en.wikipedia.org/wiki/Microsoft_Windows_2000">{format(dateOfBirth, 'MMM DD YYYY')}</Link>
