@@ -1,8 +1,7 @@
 {
   "presets": [
     ["@babel/preset-env", {
-      "targets": {"node": 9},
-      "modules": false
+      "targets": {"node": 9}
     }]
   ],
   "plugins": [
