@@ -2808,6 +2808,10 @@ rollup-plugin-node-resolve@^3.3.0:
     is-module "^1.0.0"
     resolve "^1.1.6"
 
+rollup-plugin-shebang@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-shebang/-/rollup-plugin-shebang-0.1.4.tgz#5b81200d0e7ffb42e0139d11a2677c4602898a1a"
+
 rollup-pluginutils@^2.0.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.2.0.tgz#64ba3f29988b84322bafa188a9f99ca731c95354"
