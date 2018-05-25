@@ -1,5 +1,6 @@
 const path = require('path')
 const nodeExternals = require('webpack-node-externals')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const pkg = require('./package.json')
 
 module.exports = {
@@ -32,9 +33,14 @@ module.exports = {
       }
     ]
   },
-  externals:
-    [nodeExternals({
+  externals: [
+    nodeExternals({
       whitelist: name => !Object.keys(pkg.dependencies).includes(name)
-    })]
+    })
+  ],
+  plugins: [
+    new UglifyJsPlugin()
+  ],
+  mode: 'production'
 
 }
