@@ -10,6 +10,7 @@ import opn from 'opn'
 const open = url => opn(url, {wait: false})
 const dateOfBirth = new Date(2000, 1, 18)
 
+process.stdout.write(ansiEscapes.cursorUp())
 const handleSelect = item => {
   if (item.action) {
     item.action()
@@ -94,6 +95,7 @@ class UI extends Component {
   render () {
     return (
       <span>
+        <span>{}</span>
         <Box borderStyle="round" borderColor="cyan" padding={1}>
           <Figlet font="Small Slant" >@ kimotoyanke</Figlet>
         </Box>

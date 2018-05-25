@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo 'no tests'",
     "build": "webpack",
-    "start": "npm run build && node ./index.js"
+    "dev-build": "npm run build -- --mode development",
+    "start": "npm run dev-build && node ./index.js"
   },
   "repository": {
     "type": "git",
