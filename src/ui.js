@@ -1,7 +1,7 @@
 import {h, renderToString, Text, Component} from 'ink'
 import Box from 'ink-box'
-import Figlet from 'ink-figlet'
 import SelectInput from 'ink-select-input'
+import Figlet from 'ink-figlet'
 import { format, differenceInYears } from 'date-fns'
 import ansiEscapes from 'ansi-escapes'
 import {italic} from 'ansi-styles'
