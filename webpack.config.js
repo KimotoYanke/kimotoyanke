@@ -20,7 +20,8 @@ module.exports = {
           options: {
             presets: [
               ['@babel/preset-env', {
-                targets: {node: 9}
+                targets: {node: 9},
+                modules: false
               }]
             ],
             plugins: [
